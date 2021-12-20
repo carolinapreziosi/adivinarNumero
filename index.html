@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Adivinar el numero</title>
+
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+    
+</head>
+<body>
+    
+    <h1> Adivina el número!</h1>
+
+    <p> El mismo esta entre el 1 y el 10</p>
+    <p>Tiene 3 intentos</p>
+
+    <div class="form">
+      <label for="adivinanza"> Adivinar: </label>
+      <input type="text" id="adivinanza" class="adivinanza">
+      <input type="submit" value="A jugar!" class="enviaAdivinanza">
+    </div>
+
+    <div class="resultados">
+      <p class="suposiciones"></p>
+      <p class="ultimoResultado"></p>
+      <p class="indicador"></p>
+    </div>
+
+    
+
+    <script src='script.js'></script>
+</body>
+</html>
